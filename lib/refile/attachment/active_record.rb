@@ -97,10 +97,6 @@ module Refile
               super(method, *args)
             end
           end
-
-          define_method(:respond_to_missing?) do |method, include_private = false|
-            super(method, include_private)
-          end
         end
 
         include mod
