@@ -1,6 +1,7 @@
 require "json"
 require "sinatra/base"
 require "tempfile"
+require "tmpdir"
 
 module Refile
   # A Rack application which can be mounted or run on its own.
